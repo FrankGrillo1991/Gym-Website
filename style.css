@@ -120,3 +120,7 @@ body {
     padding: 12px 0;
 }
 
+.menu .container {
+    justify-content: space-between;
+}
+
