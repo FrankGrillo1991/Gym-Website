@@ -141,3 +141,10 @@ body {
     list-style: none;
 }
 
+.nav-item {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
