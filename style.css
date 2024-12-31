@@ -62,3 +62,7 @@ body {
     left: -200px;
 }
 
+.header::before {
+    right: -200px;
+}
+
