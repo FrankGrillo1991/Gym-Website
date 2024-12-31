@@ -124,3 +124,7 @@ body {
     justify-content: space-between;
 }
 
+.mobile-btn {
+    display: none;
+}
+
