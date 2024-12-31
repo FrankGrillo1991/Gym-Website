@@ -265,3 +265,7 @@ body {
     left: calc(50% - 40px);
 }
 
+.client h2 {
+    margin: 20px 0 10px 0;
+}
+/* End Testimonial */
