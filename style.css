@@ -114,3 +114,9 @@ body {
 /* End Base */
 
 /* Menu */
+.menu {
+    width: 100%;
+    background: linear-gradient(to right, #0e0e0e 70%, #141d2a);
+    padding: 12px 0;
+}
+
