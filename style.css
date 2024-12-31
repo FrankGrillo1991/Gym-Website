@@ -245,3 +245,14 @@ body {
     margin-left: auto;
 }
 
+.client {
+    background: #fff;
+    color: #000;
+    padding: 20px 10px;
+    margin-right: 20px;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 20px;
+}
+
