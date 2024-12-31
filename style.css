@@ -137,3 +137,7 @@ body {
     height: auto;
 }
 
+.nav {
+    list-style: none;
+}
+
