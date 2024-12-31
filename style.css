@@ -89,3 +89,7 @@ body {
     right: -200px;
 }
 
+.section:nth-child(even) {
+    background: #141615;
+}
+
