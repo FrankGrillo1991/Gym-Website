@@ -285,3 +285,107 @@ body {
 /* End Footer */
 
 /* Responsive */
+
+@media (max-width: 768px) {
+    .flex {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .mobile-btn {
+        display: block;
+        font-size: 35px;
+        cursor: pointer;
+        position: absolute;
+        right: 20px;
+        top: 12px;
+    }
+
+    .menu.active .nav-item {
+        display: block;
+        margin: 30px 0;
+    }
+
+    .nav,
+    .menu .btn {
+        display: none;
+    }
+
+    .menu.active .nav,
+    .menu.active .btn {
+        display: block;
+    }
+
+    .menu.active {
+        padding: 30px 0;
+        width: 100%;
+        transition: all 0.8s ease;
+    }
+
+    .text,
+    .visual {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .text h1 {
+        font-size: 45px;
+    }
+
+    .primary {
+        font-size: 28px;
+    }
+
+    .secondary {
+        font-size: 22px;
+    }
+
+    .tertiary {
+        font-size: 14px;
+    }
+
+    .trainer {
+        margin-bottom: 20px;
+    }
+
+    .client {
+        margin-bottom: 50px;
+    }
+
+    #discount .visual img {
+        width: 70%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 530px) {
+    .header::after,
+    .header::before,
+    .section::after,
+    .section::before {
+        display: none;
+    }
+
+    .primary {
+        font-size: 25px;
+    }
+
+    .secondary {
+        font-size: 20px;
+    }
+
+    .tertiary {
+        font-size: 12px;
+    }
+
+    .text h1 {
+        font-size: 34px;
+    }
+
+    .btn,
+    .btn-2 {
+        font-size: 16px;
+    }
+}
+
+/* End Responsive */
