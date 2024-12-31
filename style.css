@@ -36,3 +36,10 @@ body {
     justify-content: center;
 }
 
+.header,
+.section {
+    width: 100%;
+    padding: 40px 0;
+    overflow: hidden;
+}
+
