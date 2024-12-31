@@ -93,3 +93,8 @@ body {
     background: #141615;
 }
 
+.section:nth-child(even)::after,
+.section:nth-child(even)::before {
+    display: none;
+}
+
