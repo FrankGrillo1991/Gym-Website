@@ -210,3 +210,7 @@ body {
     font-weight: 700;
 }
 
+.header h1 span {
+    color: var(--clr-primary);
+}
+/* End Header */
