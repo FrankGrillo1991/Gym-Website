@@ -237,3 +237,11 @@ body {
     margin-bottom: 10px;
 }
 /* End Trainer */
+
+/* Testimonial */
+#testimonial .visual img {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+}
+
