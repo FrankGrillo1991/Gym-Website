@@ -205,3 +205,8 @@ body {
     width: 100%;
 }
 
+.header h1 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
