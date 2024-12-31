@@ -148,3 +148,13 @@ body {
     font-weight: 400;
 }
 
+.nav-item a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-item a:hover {
+    color: #29a396;
+    transition: 0.3s linear;
+}
+
