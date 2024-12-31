@@ -175,3 +175,21 @@ body {
     display: inline-block;
 }
 
+.btn:hover {
+    background: #165f56;
+    transition: 0.3s linear;
+}
+
+.btn-2 {
+    font-size: 35px;
+    text-decoration: none;
+    color: #ccc;
+    transition: 0.3s linear;
+}
+
+.btn-2:hover {
+    color: #29e396;
+}
+/* End Buttons */
+
+/* Header */
