@@ -3,6 +3,15 @@ document.querySelector(".mobile-btn").addEventListener("click", function () {
     document.querySelector(".menu").classList.toggle("active");
 });
 
+// Make mobile menu accessible with keyboard
+const mobileBtn = document.querySelector(".mobile-btn");
+mobileBtn.addEventListener("keydown", function (e) {
+    if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        document.querySelector(".menu").classList.toggle("active");
+    }
+});
+
 const form = document.getElementById("contactForm");
 const name = document.getElementById("name");
 const email = document.getElementById("email");
